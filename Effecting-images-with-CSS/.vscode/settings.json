@@ -1,5 +1,0 @@
-{
-    "workbench.editor.customLabels.patterns": {
-        "*/src/**/index.html": "/$(dirname)"
-    }
-}
