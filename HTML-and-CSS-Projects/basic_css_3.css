@@ -1,0 +1,14 @@
+p 	{
+		color: aliceblue;
+		background: burlywood;
+		font-size: 15px;
+		text-align: center;
+		text-shadow: 4px 4px;
+	}
+	
+ol {
+	list-style-type: upper-alpha;
+}
+ul {
+	list-style-type: georgian;
+}	
