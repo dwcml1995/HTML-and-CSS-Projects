@@ -12,12 +12,12 @@ h2 {
 }
 
 h2:hover {
-    text-shadow: 2px 2px 5px #cecedf;
+    text-shadow: 2px 2px 5px #dbd7d2;
     transform: scale(1.1);
 }
 
 .white-text {
-    color: #808000;
+    color: #dbd7d2;
 }
 
 
@@ -76,13 +76,17 @@ img:hover {
 }
 
 footer {
-    padding: 2%;
-    background: #f5deb3;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #dbd7d2;
+    text-align: center;
 }
 
 .Navbar {
     overflow: hidden;
-    background-color: #262626;
+    background-color: #dbd7d2;
     position: fixed;
     top: 0;
     width: 100%;
@@ -99,7 +103,7 @@ footer {
 .Navbar a {
     float: left;
     display: block;
-    color: white;
+    color: #111111;
     padding: 14px 16px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -123,7 +127,7 @@ footer {
 }
 
 .Navbar a:hover {
-    background-color: burlywood;
+    background-color: #f2f4f3;
     color: black;
     font-weight: bolder;
 }
@@ -148,7 +152,7 @@ footer {
 
 .video_text {
     background: rgba(0, 0, 0, 0.5);
-    color: #f5deb3;
+    color: #f2f3f4;
     width: 100%;
     padding: 20px;
     position: relative;
@@ -172,7 +176,8 @@ footer {
     padding: 10px;
     padding-top: 3%;
     height: 400px;
-    background-color: #cecedf;
+    background-color: #C19A6B;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 576px) {
@@ -187,7 +192,8 @@ footer {
     padding: 10px;
     padding-top: 1.9%;
     height: 400px;
-    background-color: #f5deb3;
+    background-color: #111111;
+    box-sizing: border-box;
 }
 
 .Column_tall {
@@ -199,6 +205,7 @@ footer {
     content: ""; 
     display: table;
     clear: both;
+    margin-bottom: 20px;
 }
 
 input[type=text] {
@@ -245,4 +252,5 @@ form {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 
