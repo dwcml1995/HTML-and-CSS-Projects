@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width" />
-    <title>Donavons Webcraft</title>
+    <title>Donavons Creations</title>
     <link rel="stylesheet" type="text/css" href="CSS/portfolio.css">
 </head>
 <body>
@@ -22,7 +22,7 @@
         <!--background video-->
         <div id="home">
             <video autoplay muted loop id="site_video">
-                <source src="img/site_video.mp4" type="video/mp4">
+                <source src="img\video.mp4" type="video/mp4">
                 <!--error message-->
                 Your browser does not support HTML5 video.
             </video>
@@ -30,7 +30,7 @@
 
         <!--video text-->
         <div class="video_text">
-            <h2 class="white-text">Donavon's portfolio</h2>
+            <h2 class="white-text">Donavon's Portfolio</h2>
             <strong>
                 <p class="center">
                     <q>
@@ -52,8 +52,7 @@
             </div>
             <div class="Column_1">
                 <h2>About</h2>
-                <p>I'm a web & software developer named Donavon! I love spending my time working at my computer,
-                watching hockey & fishing for striped bass!</p>
+                <p>I'm a web & software developer named Donavon! I love spending my time working at my computer. Computers have always been my main passion in life.</p>
                 <p>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>'s software developer bootcamp through the Academy of Learning! I'm trained in HTML, CSS, JavaScript, SQL, C# & more!</p>
                 <p>I am a full stack developer, I would love to work with you on your project to bring your dreams to reality! <a href="#Contact">Contact</a> me below!</p>
             </div>
@@ -79,11 +78,11 @@
                 <img src="img/contact.png" alt="Contact image">
             </div>
             <div class="Column_1">
-                <form action="https://formspree.io/f/mqazdboe" method="POST">
+                <form name="myForm" action="https://formspree.io/f/mqazdboe" method="POST" onsubmit="return valForm()">
                     <label for="Name">Name:</label>
-                    <input type="text" id="Name" name="Name" placeholder="Please enter your name here" required>
+                    <input type="text" id="Name" name="Name" placeholder="Please enter your name here">
                     <label for="Email">Email:</label>
-                    <input type="email" id="Email" name="Email" placeholder="Please enter your email here" required>
+                    <input type="email" id="Email" name="Email" placeholder="Please enter your email here">
                     <label for="Message">Message:</label>
                     <input type="text" id="Message" name="Message" placeholder="Please write your message here">
                     <input type="submit" value="SUBMIT">
@@ -95,5 +94,6 @@
             <p class="center">&copy; Donavon's Webcraft <a href="https://github.com/dwcml1995/HTML-and-CSS-Projects" target="_blank">Projects</a></p>
         </footer>
     </div>
+    <script src="JS/main.js"></script>
 </body>
 </html>
